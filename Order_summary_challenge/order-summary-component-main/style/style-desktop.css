@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 100px 0;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('../images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.order {
+  width: 450px;
+  margin: auto;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: center;
+  border-radius: 25px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.order-summary-logo {
+  width: 450px;
+  border-radius: 25px 25px 0 0;
+  margin-bottom: 30px;
+}
+
+.order-summary-heading {
+  font-family: 'Red Hat Display 900', sans-serif;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.description {
+  margin: 0 70px 30px 70px;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-family: 'Red Hat Display 500', sans-serif;
+}
+
+.plan-container {
+  width: 355px;
+  padding: 20px;
+  margin: 0 auto 40px auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan-type {
+  color: hsl(0, 0%, 0%);
+  font-weight: bold;
+}
+
+.change:any-link {
+  font-family: 'Red Hat Display 500', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  flex: 1 0 auto;
+  text-align: right;
+}
+
+.change:hover,
+.change:active {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.payment,
+.cancel {
+  font-family: 'Red Hat Display 700', sans-serif;
+  /* font-size: 16px; */
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto 20px auto;
+  width: 355px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.payment {
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.payment:hover,
+.payment:active {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover,
+.change:active {
+  color: hsl(0, 0%, 0%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
